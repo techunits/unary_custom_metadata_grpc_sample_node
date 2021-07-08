@@ -1,0 +1,35 @@
+{
+  "name": "unary_custom_metadata_grpc_sample_node",
+  "version": "1.0.0",
+  "description": "How to send a unary request with additional custom metadata/headers to the server with gRPC NodeJS",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.2.0",
+    "npm": ">=7.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techunits/unary_custom_metadata_grpc_sample_node"
+  },
+  "author": "Team Techunits",
+  "license": "MIT",
+  "keywords": [
+    "grpc",
+    "grpc custom metadata",
+    "grpc custom headers",
+    "grpc unary request"
+  ],
+  "bugs": {
+    "url": "https://github.com/techunits/unary_custom_metadata_grpc_sample_node/issues"
+  },
+  "homepage": "https://github.com/techunits/unary_custom_metadata_grpc_sample_node#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.4",
+    "@grpc/proto-loader": "^0.6.4",
+    "elogger": "^1.0.9",
+    "uuid": "^8.3.2"
+  }
+}
